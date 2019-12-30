@@ -11,12 +11,12 @@
     color: whitesmoke;
     padding:0px;
     margin: 0px;
-    font-family: "Work Sans";
+    font-family: "Work Sans","Ubuntu";
     z-index: 1;   
     
 }
 .navButtons{
-    border-color:black;
+    border-color:whitesmoke;
     padding: 10px;
     margin:0px;
 }
