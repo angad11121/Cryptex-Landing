@@ -67,7 +67,7 @@ body
     position:relative;
     border-radius:20px;
     font-size:20px;
-    font-family: 'Montserrat',"Ubuntu";
+    font-family: 'Montserrat',"Work Sans","Ubuntu","Roboto";
     border:2px solid white;
 }
 #LandingDiveIN{
@@ -94,6 +94,6 @@ body
     width:100%;
     font-size:20px;
     color: azure;
-    font-family: 'Ubuntu','Roboto'; 
+    font-family: 'Ubuntu',"Work Sans",'Roboto'; 
 }
 
