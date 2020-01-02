@@ -48,7 +48,7 @@ body
     transition-duration: 0.3s; 
     color:whitesmoke;
     background-color: black;
-    border:2 px solid whitesmoke;
+    border:2 px solid black;
     padding:10px;
     margin:0px;
     border-radius: 4px;
@@ -94,6 +94,6 @@ body
     width:100%;
     font-size:20px;
     color: azure;
-    font-family: 'Ubuntu',"Work Sans",'Roboto'; 
+    font-family: "Montserrat",'Ubuntu',"Work Sans",'Roboto'; 
 }
 
