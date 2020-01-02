@@ -15,13 +15,9 @@
     z-index: 1;   
     
 }
-.navButtons{
-    border-color:black;
-    padding: 10px;
-    margin:0px;
-}
 #branding{
     font-size:20px;
+    padding-left:210px;
 }
 
 body
@@ -51,6 +47,9 @@ body
 }
 .navButtons{
     height:50px;
+    border-color:black;
+    padding: 10px;
+    margin:0px;
     transition-duration: 0.3s; 
     color:whitesmoke;
     background-color: black;
@@ -62,10 +61,7 @@ body
     border-radius: 4px;
     
 }
-#branding
-{
-    padding-left: 200px;
-}
+
 .rulestext{   
     padding-right: 80px;
     padding-left: 80px;
@@ -91,6 +87,6 @@ body
     width:100%;
     font-size:20px;
     color: azure;
-    font-family: 'Ubuntu','Roboto'; 
+    font-family: 'Ubuntu',"Verdana",'Roboto'; 
 }
 
