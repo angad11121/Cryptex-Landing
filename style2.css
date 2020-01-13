@@ -1,100 +1,161 @@
-#header{
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    display: flex;
-    align-items: center;
-    background-color: black;
-    border-color:black;
-    justify-content: space-between;
-    color: whitesmoke;
-    padding:0px;
-    margin: 0px;
-    font-family: "Work Sans","Ubuntu";
-    z-index: 1;   
-    
-}
-#branding{
-    font-size:20px;
-    padding-left:200px;
-}
-
+@import url('https://css.gg/trophy.css');
 body
 {
-    background-color:#30336b;
+    background-color: #0b161c;
+ /* background-image:url("lgradient.jpeg");*/
+    background-repeat: no-repeat;
+    background-size:cover;
 }
-#LandingPage{
-    position:relative;
-   padding-top: 80px;
+#LeftNav
+{
+    width:75px;
     display:flex;
-   background-color:#30336b;
+    position:fixed;
+    left:0px;
+    background-color: #010e14;
+    flex-direction:column;
+    top:0px;
+    height:100%;
+    z-index:50;
+    opacity:1;
+    padding-top:20px;
+}
+#icons-container
+{
+    background-color:010e14;
+    align-items: center;
+}
+.LeftIcon
+{
+    box-sizing: border-box
+    margin 10px;
+    margin-bottom: 15px;
+    margin-left:5px;
+    align-items: center;
+    border-radius:15px;
+    border-width: 3px;
+    border-color:#bbe1fa; 
+    background-color: #121212;
+    padding: 5px;
+    transition: 200ms ease-out;
+}
+.LeftIcon:hover
+{
+    border-color: #3282b8;
+}
+.nav{
+    background-color:#010e14;
+}
 
-}
-#DiveINButton{
-    background-color: darkcyan;
-    color:whitesmoke;
+#DiveINButton
+{
+    background-color: #3282b8;
+    color: black;
     border-color: whitesmoke;
-    padding-right: 20px;
+    padding:10px;
     height:50px;
+    border-radius:10px;
+    border-color:black;
+    transition: 200ms ease-out;
 }
+
 #DiveINButton:hover{
-    border:2px solid cyan;
-    border-radius: 4px;
-    background-color:black;
-}
+        border:2px solid #3282b8;
+        border-radius: 10px;
+        background-color:black;
+        color: white;
+    }
 .navButtons{
     height:50px;
     transition-duration: 0.3s; 
     color:whitesmoke;
-    background-color: black;
-    border:2 px solid black;
     padding:10px;
-    margin:0px;
-    border-color:#000000;
+    background-color: #121212;
+    border-color:#121212;
+    transition: 200ms ease-out;
     border-radius: 4px;
+    border-bottom-width:0%;
+    margin:0px;
 }
 .navButtons:hover{
-    border:2px solid cyan;
+    border-bottom:4px solid #3282b8;
     border-radius: 4px;
+    border-bottom-width: 100%;
     
 }
-#landingtext{   
-    padding-right: 80px;
-    padding-left: 80px;
-    margin: 45px;
-    color:whitesmoke;
-    background-color: #130f40;
-    position:relative;
-    border-radius:20px;
-    font-size:20px;
-    font-family: 'Montserrat',"Work Sans","Ubuntu","Roboto";
-    border:2px solid white;
+#branding
+{
+    padding-left: 200px;
+    font-size:22px;
 }
-#LandingDiveIN{
-    position:absolute;
-    bottom:75px;
-    height:45px;
-    width:160px;
-    font-size: 22px;
-    color:whitesmoke;
-    background-color: black;
-    border-radius: 5px;
-    transition-duration:0.3s;
-}
-#LandingDiveIN:hover {
-     border:2px solid cyan;
-    border-radius: 5px;
-}
-#footer{
-    text-align: center;
-    background-color: black;
-    position: fixed;
-    bottom:0px;
+#header{
+    position:fixed;
+    top:0px;
     left:0px;
+    opacity:0.97;
     width:100%;
-    font-size:20px;
-    color: azure;
-    font-family: "Montserrat",'Ubuntu',"Work Sans",'Roboto'; 
+    display: flex;
+    align-items: center;
+    background-color:#010e14;
+    border-style: none;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding-bottom:2px;
+    margin: 0px;
+    font-family: 'Poppins',"Work Sans","Roboto","Ubuntu";
+    z-index: 1;   
 }
-
+#MainBody
+{
+    padding-left:60px;
+    padding-top:70px;
+    background-color: #0b161c;
+    position:relative;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    opacity:0.8;
+}
+.content
+{
+    margin:30px;
+    padding:30px;
+    border-color:#1b262c;
+    border-radius:10px;
+    color:white;
+    background-color:#1b262c;
+    font-size:17px;
+    font-family:"Work Sans","Ubuntu";
+}
+#LandingDiveIN
+{
+    
+    bottom:70px;
+    align-self: center;
+    left:35%;
+    background-color: rgba(50, 130, 184,0.60);
+    font-size:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px; 
+    font-family: 'Poppins',sans-serif;
+    align-items: center;
+    border-radius:20px;
+    opacity:1;
+    box-shadow: 10px;
+    transition: 300ms ease-out;
+    
+}
+#LandingDiveIN:hover
+{
+    background-color:rgba(50, 130, 184,1);
+}
+#Home
+{
+    background-color:#0F52BA;
+}
+#Logo
+{
+    background-color:#252629;
+}
