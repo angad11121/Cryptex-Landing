@@ -5,44 +5,16 @@ body
  /* background-image:url("lgradient.jpeg");*/
     background-repeat: no-repeat;
     background-size:cover;
+    overflow-y: hidden;
+
 }
-#LeftNav
-{
-    width:75px;
-    display:flex;
-    position:fixed;
-    left:0px;
-    background-color: #010e14;
-    flex-direction:column;
-    top:0px;
-    height:100%;
-    z-index:50;
-    opacity:1;
-    padding-top:20px;
-}
+
 #icons-container
 {
     background-color:010e14;
     align-items: center;
 }
-.LeftIcon
-{
-    box-sizing: border-box
-    margin 10px;
-    margin-bottom: 15px;
-    margin-left:5px;
-    align-items: center;
-    border-radius:15px;
-    border-width: 3px;
-    border-color:#bbe1fa; 
-    background-color: #121212;
-    padding: 5px;
-    transition: 200ms ease-out;
-}
-.LeftIcon:hover
-{
-    border-color: #3282b8;
-}
+
 .nav{
     background-color:#010e14;
 }
@@ -92,7 +64,6 @@ body
     position:fixed;
     top:0px;
     left:0px;
-    opacity:0.97;
     width:100%;
     display: flex;
     align-items: center;
@@ -107,25 +78,68 @@ body
 }
 #MainBody
 {
-    padding-left:60px;
-    padding-top:70px;
+    padding-top:45px;
     background-color: #0b161c;
-    position:relative;
     color:black;
-    display:flex;
-    flex-direction: column;
-    opacity:0.8;
+    height=99vh;
+    width=99.5vw;
+    border:0px;
+    margin:0px;
+}
+#Hello
+{
+    font-size:72px;
+    height:100vh;
+    width:98vw;
+    height=98vh;
+    line-height:84.5svh;
+    white-space:nowrap;
+    position:relative;
+    align-items: center;
+    
+}
+#countdown
+{
+    align-self: center;
+    color:antiquewhite;
+    position:absolute;
+    top:46vh;
+    line-height: 10vh;
+    left:43vw;
+    font-size:35px;
+    font-family: 'Orbitron',sans-serif;
+   
+    
 }
 .content
 {
-    margin:30px;
-    padding:30px;
-    border-color:#1b262c;
-    border-radius:10px;
-    color:white;
-    background-color:#1b262c;
+    align-items: center;
+    text-align: center;
+    color:whitesmoke;
+    background-color:#0b161c;
     font-size:17px;
     font-family:"Work Sans","Ubuntu";
+}
+#RegisterButton
+{
+   
+    align-self: center;
+    color:whitesmoke;
+    position:absolute;
+    top:57vh;
+    left:44vw;
+    font-size:30px;
+    font-family: 'Montserrat',sans-serif; 
+    background-color: rgba(50, 130, 184,0.60);
+    border-radius:6vh;
+    line-height: 4vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+#RegisterButton:hover
+{
+    background-color:rgba(50, 130, 184,1);
 }
 #LandingDiveIN
 {
@@ -150,12 +164,4 @@ body
 #LandingDiveIN:hover
 {
     background-color:rgba(50, 130, 184,1);
-}
-#Home
-{
-    background-color:#0F52BA;
-}
-#Logo
-{
-    background-color:#252629;
 }

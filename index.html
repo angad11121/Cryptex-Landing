@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<html>
 <head>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet"> 
@@ -6,69 +7,46 @@
         <link rel="icon" href="https://elan.org.in/images/favicon.png" type=image/x-icon>
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>
         Home|Cryptex 2020
     </title>
 </head>
 <body>
-    <section id="header">
+    <div id="header" data-aos="fade-down" data-aos-duartion="1500">
             <div class="nav">
                <a href="https://elan.org.in"> <img src="Elan.png" alt="ElanLogo" height="50px" width="50px">
                 </a>
             </div>
             <div class="nav" id="branding">C R Y P T E X 2020 </div>
             <div class="nav">
-                <button class="navButtons" onclick="location.href='https://elan.org.in'" >REGISTER</button>
+                <button class="navButtons" onclick="location.href='https://elan.org.in'" >ABOUT</button>
                 <button class="navButtons" onclick="location.href='https://elan.org.in'">LEADERBOARD</button>
                 <button class="navButtons" onclick="location.href='rules.html'">RULES</button>
                 <button id="DiveINButton" class="navButtons" onclick="https://iith.ac.in">DIVE IN!</button>
             </div>
-        </section>
-<section id="LeftNav">
-    <div id="icons-container">
-
-    <!--    <button class="LeftIcon">
-    <a href="https://elan.org.in"> <img src="Elan.png" alt="ElanLogo" height="45px" width="45px">
-    </a>
-    </button> -->
-    <button class="LeftIcon" id="Home">
-    <a href="https://elan.org.in"> <img src="home-icon.png" alt="Home" height="45px" width="45px">
-    </a>
-    </button>
-    <button class="LeftIcon" id="Rules">
-    <a href="https://elan.org.in">
-      <img src="Rules.png" alt="Rules" height="45px" width="45px">
-    </a>
-    </button>
-    <button class="LeftIcon" id="LeaderBoard">
-    <a href="https://elan.org.in"> <img src="leaderboard1.png"/ alt="LeaderBoard" height="45px" width="45px">
-    </a>
-    </button>
-    <button class="LeftIcon" id="About">
-    <a href="https://rachitkeertidas.github.io/rules.html">
-    <img src="info.png" alt="About" height="45px" width="45px">
-        <!--<i class="gg-info"></i>-->
-        </a>
-        </button>
-    </div>
-</section>
+        </div>
 
     <section id="MainBody">
-        <div class="content"> 
-            Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida mattis magna. Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus nec laoreet ipsum. Etiam lobortis erat vel ullamcorper tristique. Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.
+        <div class="content" data-aos="fade-up" id="Hello" data-aos-duration="2500"> 
+            C R Y P T E X 2020
+            <br/>
+            <div id="countdown">DIVE IN!</div>
+            <div id="RegisterButton">REGISTER</div>
         </div>
-        <div class="content">
-            Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida mattis magna. Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus nec laoreet ipsum. Etiam lobortis erat vel ullamcorper tristique. Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Etiam at nibh non dolor porttitor fer-mentum eu vel mi. Nunc ultricies, odio at feugiat tincidunt, turpis nibh vulputate metus, eu lobortis augue lorem dictum mi. Suspendisse nec condimentum risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ut vestibulum quam.
-        </div>
-        <div class="content">
-            Phasellus vehicula tempus orci vel consequat. Nullam lorem sem, viverra a rutrum sed, gravida mattis magna. Suspendisse vitae commodo quam. Quisque a enim et ante vulputate finibus nec laoreet ipsum. Etiam lobortis erat vel ullamcorper tristique. Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.Morbi pellentesque orci augue, quis finibus justo accumsan nec. Donec imperdiet sodales lectus sed consectetur. Mauris dignissim.
-        </div>
-        <i class="gg-info"></i>
-        <div id="LandingDiveIN">
-            DIVE IN!
-        </div>
+        <!-- <div id="LandingDiveIN">
+            Register
+        </div>-->
+        
+     
+       
     </section>
     <script src="countdown.js"></script>
+    <script>
+  AOS.init();
+</script>
     
 </body>
+</html>
